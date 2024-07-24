@@ -1,0 +1,103 @@
+body{
+    /*margem 0 é para grudar com o teto da página(?)*/
+	/*remove a margem automatica de 8px da web. Acertei*/
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    /*Isso aq é para o que mesmo ?*/
+    min-height: 100vh;
+    background-color: #2F2E41;
+}
+
+.page{
+    width: 1280px;/*tirado da página do figma*/
+    margin: 0 auto;
+    padding-top: 71px;
+}
+
+nav{
+    font-family: "JetBrains Mono", monospace;
+    display: flex;/*O que isso faz mesmo?*/
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 101px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 64px;;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+
+h1{
+	font-family: "JetBrains Mono", monospace;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 40px; 
+	color: #fff;
+	width: 614px;
+
+	text-align: center;
+}
+
+span{
+	color: #00BFA6;
+	font-weight: bold;
+}
+
+section p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #C2C2C2;
+
+	text-align: center;
+
+	width: 604px;
+  }
+  .line{ /* Para classe se usa .*/
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 27px;
+    border: 1px solid #00BFA6;
+    /*Podemos clicar na cor para escolher ela. 
+    Além disso, podemos clicar no nome para escolher o formato. 
+    Isto é, RGB, Hexa HSL e +*/
+}
+
+  footer {
+	font-family: "JetBrains Mono", monospace;
+
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: medium;
+	text-align: center;
+	color: #fff;
+	margin-top: 157px;
+  
+  display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+  }
+  
+
+
+  
